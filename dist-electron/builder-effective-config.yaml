@@ -1,0 +1,26 @@
+directories:
+  output: dist-electron
+  buildResources: build
+appId: com.imgnotes.desktop
+productName: IMG Notes
+files:
+  - filter:
+      - dist/**/*
+      - public/electron.js
+      - public/preload.js
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: public/icon.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: IMG Notes
+extraResources:
+  - from: public/icon.ico
+    to: icon.ico
+electronVersion: 28.3.3
