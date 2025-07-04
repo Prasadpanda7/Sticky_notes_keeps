@@ -120,7 +120,7 @@ export const StickyNote: React.FC<StickyNoteProps> = ({
         <div className="flex items-center gap-2 flex-1 min-w-0">
           <Pin className="w-4 h-4 text-blue-500 dark:text-blue-400 flex-shrink-0" />
           <span className="text-sm font-medium text-gray-700 dark:text-gray-200 truncate">
-            {note.title || 'Sticky Note'}
+            {note.title || 'IMG Sticky Note'}
           </span>
         </div>
         <div className="flex items-center gap-1">

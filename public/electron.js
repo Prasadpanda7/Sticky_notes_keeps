@@ -114,9 +114,9 @@ function createMenu() {
       label: 'Help',
       submenu: [
         {
-          label: 'About Keep Notes',
+          label: 'About IMG Notes',
           click: () => {
-            shell.openExternal('https://github.com/keepnotes/desktop');
+            shell.openExternal('https://github.com/imgnotes/desktop');
           }
         }
       ]

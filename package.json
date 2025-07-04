@@ -1,9 +1,9 @@
 {
-  "name": "keep-notes-desktop",
+  "name": "img-notes-desktop",
   "private": true,
   "version": "1.0.0",
   "description": "A beautiful sticky notes app for Windows",
-  "author": "Keep Notes",
+  "author": "IMG Notes",
   "main": "public/electron.js",
   "homepage": "./",
   "type": "module",
@@ -43,8 +43,8 @@
     "wait-on": "^7.2.0"
   },
   "build": {
-    "appId": "com.keepnotes.desktop",
-    "productName": "Keep Notes",
+    "appId": "com.imgnotes.desktop",
+    "productName": "IMG Notes",
     "directories": {
       "output": "dist-electron"
     },
@@ -67,7 +67,7 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "Keep Notes"
+      "shortcutName": "IMG Notes"
     },
     "extraResources": [
       {

@@ -26,7 +26,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <StickyNote className="w-8 h-8 text-blue-600 dark:text-blue-400" />
-            <h1 className="text-xl font-semibold text-gray-800 dark:text-gray-100">Keep Notes</h1>
+            <h1 className="text-xl font-semibold text-gray-800 dark:text-gray-100">IMG Notes</h1>
           </div>
           
           <div className="flex items-center gap-4">
