@@ -18,6 +18,7 @@
     "dist": "npm run build && electron-builder --publish=never"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001726",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -57,7 +58,9 @@
       "target": [
         {
           "target": "nsis",
-          "arch": ["x64"]
+          "arch": [
+            "x64"
+          ]
         }
       ],
       "icon": "public/icon.ico"
